@@ -1,0 +1,36 @@
+/* userList.css */
+
+/* Style the entire table */
+.user-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.user-list-heading {
+    text-align: center;
+}
+
+/* Style table headers */
+.user-list-table th {
+    background-color: #007bff;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+}
+
+/* Style table rows */
+.user-list-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Alternate row background color */
+.user-list-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect for rows */
+.user-list-table tr:hover {
+    background-color: #e0e0e0;
+}

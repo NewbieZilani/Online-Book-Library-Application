@@ -1,0 +1,66 @@
+/* styles.css */
+
+/* Container styles */
+.book-form-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.book-form-container {
+    flex-direction: column;
+    /* align-items: center; */
+    /* text-align: center; */
+}
+
+.button-group {
+    gap: 10px;
+    justify-content: center;
+}
+
+.book-form-container h2 {
+    justify-content: center;
+    text-align: center;
+}
+
+/* Form styles */
+form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(153, 3, 3, 0.2);
+}
+
+/* Input field styles */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input:hover {
+    background-color: #dad0d0;
+}
+
+/* Button styles */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #033f7e;
+}

@@ -1,0 +1,51 @@
+.user-details {
+    text-align: center;
+    padding: 20px;
+}
+
+.user-details h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* .user-field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+} */
+
+.user-field {
+  display: flex;
+  align-items: flex-start; 
+  padding: 5px 10px; 
+  justify-content: space-between;
+
+}
+
+.user-field label {
+    font-weight: bold;
+    margin-left: 200px;
+}
+
+.user-value {
+    font-weight: normal;
+    margin-right: 150px;
+}   
+
+/* Style for even rows, providing a slight background color alternation */
+.user-field:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+/* Add a border to separate fields */
+.user-field {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Hover effect to highlight fields on hover */
+.user-field:hover {
+    background-color: #ececec;
+    transition: background-color 0.3s ease;
+}

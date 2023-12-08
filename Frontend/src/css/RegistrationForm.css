@@ -1,0 +1,13 @@
+/* RegistrationForm.css */
+
+/* Add custom styles here */
+/* Hover effect for input fields */
+.hover-effect:hover {
+  border: 2px solid #007bff; /* Change the border color on hover */
+}
+
+/* Hover effect for buttons */
+.btn.hover-effect:hover {
+  background-color: #007bff; /* Change the background color on hover */
+  color: #fff; /* Change the text color on hover */
+}
